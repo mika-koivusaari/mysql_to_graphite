@@ -1,0 +1,15 @@
+[replication_connection]
+host = localhost
+port = 3306
+user = [replication user]
+passwd = [replication users passwd]
+
+[graphite_config]
+host = localhost
+user = [user]
+passwd = [passwd]
+db = [database]
+
+[carbon]
+host = localhost
+port = 2003
